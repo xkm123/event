@@ -1,0 +1,46 @@
+{
+  "name": "fcjy/event",
+  "type": "library",
+  "description": "Event Extend for Laravel",
+  "keywords": [
+    "fcjy",
+    "event"
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xkm",
+      "email": "623279281@qq.com",
+      "homepage": ""
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "illuminate/support": "^5.1"
+  },
+  "require-dev": {
+    "illuminate/console": "^5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fcjy\\Event\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "1.0-dev"
+    },
+    "laravel": {
+      "aliases": {
+        "JWTAuth": "Tymon\\JWTAuth\\Facades\\JWTAuth",
+        "JWTFactory": "Tymon\\JWTAuth\\Facades\\JWTFactory"
+      },
+      "providers": [
+        "Tymon\\JWTAuth\\Providers\\LaravelServiceProvider"
+      ]
+    }
+  }
+}
