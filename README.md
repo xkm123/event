@@ -27,4 +27,4 @@ $config = [
             ];
 ~~~
 ### 安装
-   composer require Fcjy/Event
+ composer require fcjy/event
